@@ -31,7 +31,7 @@ nanobox run php-server
 nanobox dns add local lumen.dev
 ```
 
-Visit your app at <a href="http://lumen.dev:8000" target="\_blank">lumen.dev:8000</a>
+Visit your app at <a href="http://lumen.dev" target="\_blank">lumen.dev</a>
 
 ## Explore
 
