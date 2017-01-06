@@ -20,16 +20,14 @@ cd nanobox-lumen
 ## Run the app
 
 ```bash
+# Add a convenient way to access your app from the browser
+nanobox dns add local lumen.dev
+
 # Run lumen as you would normally, with Nanobox
 nanobox run php-server
 ```
 
 ## Check it out
-
-```bash
-# Add a convenient way to access your app from the browser
-nanobox dns add local lumen.dev
-```
 
 Visit your app at <a href="http://lumen.dev" target="\_blank">lumen.dev</a>
 
