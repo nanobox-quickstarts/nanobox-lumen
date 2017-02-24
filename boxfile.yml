@@ -25,9 +25,7 @@ run.config:
 #   image: nanobox/mysql
 
 web.main:
-  start:
-    nginx: start-apache
-    fpm: start-php
+  start: php-server
 
   # add writable dirs to your web component
   writable_dirs:
@@ -35,12 +33,8 @@ web.main:
 
   # the path to a logfile you want streamed to the nanobox dashboard
   log_watch:
-    apache[access]: /data/var/log/apache/access.log
-    apache[error]: /data/var/log/apache/error.log
-    php[error]: /data/var/log/php/php_error.log
-    php[fpm]: /data/var/log/php/php_fpm.log
     slim[app]: logs/app.log
 
-#
+# add network storage for shared, persistent file storage
 # data.storage:
 #   image: nanobox/unfs
