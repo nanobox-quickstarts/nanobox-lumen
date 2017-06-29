@@ -11,9 +11,13 @@ run.config:
     extensions:
       - pdo
       - mbstring
-      - session
+      - pdo_mysql
+      - mysqli
+      - dom
       - tokenizer
-      - zip
+      - xmlwriter
+      - xml
+      - session
 
   #
   # network_dirs:
