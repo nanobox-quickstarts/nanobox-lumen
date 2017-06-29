@@ -17,6 +17,7 @@ run.config:
       - tokenizer
       - xmlwriter
       - xml
+      - session
 
   #
   # network_dirs:
